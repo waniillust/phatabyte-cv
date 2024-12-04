@@ -66,7 +66,7 @@ const categories = [
   { label: "All", value: "all" },
   { label: "Web", value: "web" },
   { label: "Mobile", value: "mobile" },
-  { label: "Data visualization", value: "dataviz" },
+  { label: "Data vis", value: "dataviz" },
   { label: "Digital Art", value: "digitalart" },
 ];
 
@@ -95,7 +95,7 @@ export default function PortfolioPage() {
                 <Button
                   key={category.value}
                   variant={selectedCategory === category.value ? "default" : "outline"}
-                  size="sm"
+                  size="xs"
                   onClick={() => setSelectedCategory(category.value)}
                 >
                   {category.label}
