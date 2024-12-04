@@ -8,7 +8,7 @@ export default function Home() {
       <div className="space-y-6 p-3">
         <h1 className="text-2xl font-bold tracking-tighter m-2 p-4 bg-red">
           <p className="text-xl">Welcome to </p>
-          <span className="text-6xl bg-gradient-to-tl from-blue-600 via-green-500 to-teal-300 inline-block text-transparent bg-clip-text py-2">Phatabyte.tech</span>
+          <span className="text-4xl lg:text-6xl bg-gradient-to-tl from-blue-600 via-green-500 to-teal-300 inline-block text-transparent bg-clip-text py-2">Phatabyte.tech</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-[600px] mx-auto">
           Crafting exceptional digital experiences through innovative software development
