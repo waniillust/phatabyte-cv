@@ -287,7 +287,7 @@ export default function CV() {
             <div className="flex flex-col justify-between items-start mb-2">
               <div className="flex flex-row items-center justify-between w-full">
                 <Image
-                  src="./images/CPRELogo.png"
+                  src="./images/cpre.png"
                   alt="Profile photo"
                   width={80}
                   height={80}
